@@ -147,7 +147,7 @@ fileUpload.addEventListener('click', event => {
 });
 
 connectButton.addEventListener('click', async () => {
-    let filters = [{ namePrefix: "Fusion Sensor" }];
+    let filters = [{ namePrefix: "Fusion Sensor" }, { namePrefix: "Fusion Wireless Sensor" }];
     await mcumgr.connect(filters);
 });
 
